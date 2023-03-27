@@ -1,0 +1,11 @@
+outputDirectory: /tmp/petstore-sdks-out
+specPath: swagger.json
+generators:
+  java:
+    version: 1.0.0
+    groupId: decentro.tech
+    artifactId: petstore-java-sdk
+    outputDirectory: java
+    git:
+      userId: konfig-dev
+      repoId: decentro-petstore-java-sdk/tree/main/java
